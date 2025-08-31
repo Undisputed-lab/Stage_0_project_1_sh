@@ -1,10 +1,28 @@
-# Stage_0_project_1_sh
-HackBio Stage 0 Assignment - Bash Basics and Bioinformatics Tools
-HackBio_NGS_Bash
-GitHub: https://github.com/Undisputed-lab/Stage_0_project_1_sh.git
-LinkedIn: https://www.linkedin.com/posts/chairunnisa-amanda_hackbiointernship-biocoding-bash-activity-7367566727838171136-Lr19?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABiNTiMBvkjmS6BuO4cWXOJ_Do45V6MlVSg
-This repository contains my Stage 0 Project 1 (Bash Basics) solution for HackBio NGS internship.
+# Stage 0 Project: Bash Basics & Bioinformatics Software Installation
 
-Run
-chmod +x stage_0_project1.sh
-./stage_0_project1.sh
+## 👨 Author
+**Stephen Oyejide**
+
+---
+
+## 📌 Project Overview
+This repository contains solutions to **Stage 0 Project 1 (Bash Basics)** and **Project 2 (Bioinformatics Software Installation)**.
+
+- **Project 1**: Demonstrates command-line operations for file handling, sequence analysis, and parsing `.gbk` files.  
+- **Project 2**: Shows how to install and run bioinformatics tools using **conda** from the Bioconda channel.  
+
+The solutions are contained in the script [`stage0_project.sh`](./stage0_project.sh).
+
+---
+
+## ⚡ Usage
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/Undisputed-lab/Stage_0_project_1_sh.git
+cd Stage_0_project_1_sh
+
+chmod +x stage0_project.sh
+
+./stage0_project.sh
+
