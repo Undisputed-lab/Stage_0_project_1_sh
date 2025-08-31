@@ -59,3 +59,35 @@ echo "Files in biocomputing:"
 ls ../biocomputing
 echo "Files in Stephen_Oyejide:"
 ls ../Stephen_Oyejide
+
+### ------------------ PROJECT 2: Bioinformatics Software ------------------ ###
+
+# 1. Activate the base conda environment
+conda activate base
+
+# 2. Create a conda environment named funtools
+conda create -n funtools -y
+
+# 3. Activate the funtools environment
+conda activate funtools
+
+# 4. Install Figlet
+conda install -c bioconda figlet -y
+
+# 5. Run figlet with my name
+figlet "Stephen Oyejide"
+
+# 6-13. Install bioinformatics tools via bioconda
+conda install -c bioconda bwa -y
+conda install -c bioconda blast -y
+conda install -c bioconda samtools -y
+conda install -c bioconda bedtools -y
+conda install -c bioconda spades -y
+conda install -c bioconda bcftools -y
+conda install -c bioconda fastp -y
+conda install -c bioconda multiqc -y
+
+
+### ------------------ PROFESSIONAL PROFILE ------------------ ###
+# GitHub Repository: https://github.com/Undisputed-lab/Stage_0_project_1_sh.git
+# LinkedIn Video:https://www.linkedin.com/posts/chairunnisa-amanda_hackbiointernship-biocoding-bash-activity-7367566727838171136-Lr19?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAABiNTiMBvkjmS6BuO4cWXOJ_Do45V6MlVSg
